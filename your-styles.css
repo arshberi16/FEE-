@@ -1,0 +1,14 @@
+@keyframes colorChange {
+    0% { background-color: #c96751; }
+    25% { background-color: #249138; }
+    50% { background-color: #eb3434; }
+    75% { background-color: #b433ff; }
+    89% { background-color: #33d3ff98; }
+    100% { background-color: #c96751; }
+  }
+  body {
+    animation: colorChange 10s ;
+    animation-iteration-count: infinite;
+  }
+ 
+     
